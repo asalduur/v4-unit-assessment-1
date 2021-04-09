@@ -1,0 +1,146 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #89fcd6;
+    padding: 1rem;
+}
+h2 {
+    margin: 10px 15px;
+}
+#rectangles {
+    border: 3px dotted black;
+    padding: 15px;
+    margin: 15px;
+}
+
+#rectangle-1 {
+    display: inline-block;
+    background-color: #48187f;
+    border: 3px solid #fa221c;
+    width: 130px;
+    height: 60px;
+}
+
+#special-rectangle-small {
+    display: inline-block;
+    background-color: #0035f8;
+    border: 1px solid black;
+    box-shadow: 4px 4px 6px 0px black;
+    width: 60px;
+    height: 63px;
+}
+
+#special-rectangle-big {
+    display: inline-block;
+    background-color: #d77493;
+    border: 1px solid black;
+    width: 120px;
+    height: 120px
+}
+
+#snowman {
+    display: inline-block;
+    border: 3px dotted black;
+    width: 95%;
+    padding: 15px ;
+    margin: 15px;
+}
+
+#snowman-top {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+.eyes {
+    position: absolute;
+    padding: 18px;
+}
+#nose{
+    position: absolute;
+    padding: 15px 0 15px 15px;
+    top: 15px;
+}
+#snowman-mid {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#button-1 {
+    position: relative;
+    padding: 5px 35px;
+}
+
+#button-2 {
+    position: relative;
+    padding: 2px 35px;
+}
+
+#button-3 {
+    position: relative;
+    padding: 2px 35px;
+}
+
+#snowman-bottom {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#inception {
+    display: inline-block;
+    position: absolute;
+    border: 3px dotted black;
+    width: 95%;
+    padding: 10px ;
+    margin: 15px;
+}
+#square {
+    position: relative;
+    background-color: #f5f4de;
+    border: 1px solid black;
+    width: 220px;
+    height: 220px;
+}
+#circle {
+    position: relative;
+    background-color: #1c7d1a;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    
+}
+#fish-tank {
+    position: relative;
+    background-color: #a22f2e;
+    width: 110px;
+    height: 110px;
+    margin: 28px;
+}
+p {
+    margin: 11px;
+    padding-left: 15px;
+    color: white;
+}
+
+#sphere {
+    position: relative;
+    background-color: #0035f8;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+#fishy {
+    padding: 11px;
+}
