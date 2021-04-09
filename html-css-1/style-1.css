@@ -1,0 +1,63 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    background-color: #ec8382;
+    border: 2px solid black;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 35rem 0 1rem;
+
+}
+#nav-bar {
+    
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 16px;
+}
+
+img {
+    width: 100px;
+    padding: 15px;
+}
+
+hr {
+    border: 0px solid white;
+}
+
+#about-html5 {
+    border: 5px dotted black;
+    height: 35vh;
+    padding: 10px;
+    margin: 10px;
+}
+
+#html-logo {
+    float: left;
+}
+
+#about-css3 {
+    border: 5px dotted black;
+    height: 40vh;
+    padding: 20px;
+    margin: 10px;
+}
+
+#css3-logo {
+    float: right;
+}
+
+p {
+    word-wrap: break-word;
+}
